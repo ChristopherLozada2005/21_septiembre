@@ -12,7 +12,7 @@ del documento original, con calidad de producción y sin salirse de alcance.
    repositorio en Copilot Chat/agente (VS Code y GitHub.com lo detectan solo).
 3. Las carpetas dentro de `skills/` son tareas puntuales. Pídele al agente que las siga
    **en orden numérico** (00 a 06); cada una tiene objetivo, pasos y criterios de
-   aceptación claros, para que puedas validar antes de avanzar a la siguiente.
+   aceptación claros.
 
 ## Orden recomendado de trabajo
 
@@ -24,7 +24,7 @@ del documento original, con calidad de producción y sin salirse de alcance.
 | 03 | flower-modal-and-memories | `FlowerModal.tsx` + `MemoryCard.tsx` |
 | 04 | motion-and-accessibility | Auditoría transversal de animaciones + accesibilidad |
 | 05 | final-sequence-and-plant-flower | `PlantFlower.tsx` + `FinalMessage.tsx` + corazón final |
-| 06 | deploy-and-privacy | Checklist de publicación segura en Vercel |
+| 06 | deploy-and-privacy | **Cómo agregar las fotos reales de forma segura** (paso a paso) + checklist de publicación en Vercel |
 
 ## Nota sobre el tiempo
 
