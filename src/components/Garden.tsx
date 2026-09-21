@@ -13,11 +13,11 @@ interface GardenProps {
 }
 
 const positions = [
-  { top: '18%', left: '12%' },
-  { top: '24%', left: '52%' },
-  { top: '52%', left: '20%' },
-  { top: '56%', left: '63%' },
-  { top: '74%', left: '42%' },
+  { bottom: '5%', left: '8%' },
+  { bottom: '10%', left: '31%' },
+  { bottom: '4%', left: '55%' },
+  { bottom: '8%', left: '74%' },
+  { bottom: '3%', left: '43%' },
 ];
 
 export function Garden({ flowers, discoveredFlowers, onSelectFlower }: GardenProps) {
@@ -47,6 +47,16 @@ export function Garden({ flowers, discoveredFlowers, onSelectFlower }: GardenPro
       </div>
 
       <div className="garden__scene">
+        <div className="garden__sun" aria-hidden="true" />
+        <div className="garden__horizon" aria-hidden="true" />
+        <div className="garden__foliage garden__foliage--back" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+        <div className="garden__flowers">
         {flowers.map((flower, index) => (
           <Flower
             key={flower.id}
@@ -57,6 +67,15 @@ export function Garden({ flowers, discoveredFlowers, onSelectFlower }: GardenPro
             onSelect={onSelectFlower}
           />
         ))}
+        </div>
+        <div className="garden__foliage garden__foliage--front" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
       </div>
 
       {showHint && <p className="garden__hint">{gardenContent.hint}</p>}
