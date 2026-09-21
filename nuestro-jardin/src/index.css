@@ -1,0 +1,41 @@
+:root {
+  --color-bg-cream: #fff9e6;
+  --color-yellow-soft: #fde68a;
+  --color-yellow-main: #facc15;
+  --color-yellow-deep: #eab308;
+  --color-leaf: #365314;
+  --color-earth: #713f12;
+  --color-text: #422006;
+  --color-white: #ffffff;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg-cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
