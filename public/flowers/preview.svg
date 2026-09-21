@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustracion de una flor amarilla</title>
+  <desc id="desc">Una flor amarilla sencilla sobre un fondo crema.</desc>
+  <rect width="1200" height="630" fill="#fff9e6"/>
+  <circle cx="600" cy="270" r="92" fill="#eab308"/>
+  <g fill="#facc15" stroke="#eab308" stroke-width="8">
+    <ellipse cx="600" cy="125" rx="70" ry="125"/>
+    <ellipse cx="600" cy="415" rx="70" ry="125"/>
+    <ellipse cx="455" cy="270" rx="125" ry="70"/>
+    <ellipse cx="745" cy="270" rx="125" ry="70"/>
+    <ellipse transform="rotate(45 498 168)" cx="498" cy="168" rx="70" ry="125"/>
+    <ellipse transform="rotate(-45 702 168)" cx="702" cy="168" rx="70" ry="125"/>
+    <ellipse transform="rotate(-45 498 372)" cx="498" cy="372" rx="70" ry="125"/>
+    <ellipse transform="rotate(45 702 372)" cx="702" cy="372" rx="70" ry="125"/>
+  </g>
+  <circle cx="600" cy="270" r="62" fill="#713f12"/>
+  <path d="M600 350v210M600 445c-80-55-145-20-180 30M600 500c80-55 145-20 180 30" fill="none" stroke="#365314" stroke-linecap="round" stroke-width="18"/>
+</svg>
